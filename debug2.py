@@ -1,4 +1,4 @@
-def score_to_letter_grade(grade):   #this function return a grade according to score
+def score_to_letter_grade(grade):   #this function return a grade according to score 
     if grade >= 90: #if score in greater or equals to 90 return A
         return "A"
     elif grade >= 87:   #if score in greater or equals to 87 return B+
@@ -14,9 +14,9 @@ def score_to_letter_grade(grade):   #this function return a grade according to s
     elif grade >= 60:
         return "D"
     else:
-        return "F"  #otherwise return F
+        return "F"  #otherwise return F 
 
-print("Grade of 90 should be A: " + score_to_letter_grade(90))  #call score_to_letter_grade function and print output
+print("Grade of 90 should be A: " + score_to_letter_grade(90))  #call score_to_letter_grade function and print output 
 print("Grade of 87 should be B+: " + score_to_letter_grade(87))
 print("Grade of 81 should be B: " + score_to_letter_grade(81))
 print("Grade of 77 should be C+: " + score_to_letter_grade(77))
